@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rsponsive Fruits And Vegetabels Website</title>
+    <!-- Link To CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Box Icons -->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- Link Swiper's CSS -->
+  <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <a href="#" class="logo"><i class='bx bxs-basket'></i>MotorBike<</a>
+        <!-- Menu Icon  -->
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <!-- Nav List -->
+        <ul class="navbar">
+            <li><a href="#home" class="home-active">Головна</a></li>
+            <li><a href="#categories">Категорії</a></li>
+            <li><a href="#products">Техніка</a></li>
+            <li><a href="#about">Про нас</a></li>
+            
+            
+        </ul>
+        <!-- Profile -->
+    
+    </header>
+    <!-- Home -->
+    <section class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <!-- Slide 1 -->
+            <div class="swiper-slide container">
+                <div class="home-text">
+                    <br><br><br><h1>Sale of motorcycles</h1>
+                </div>
+           
+           
+          
+
+    </section>
+    <!-- Categories -->
+    <section class="categories" id="categories">
+        <div class="heading">
+            <h1> <br><span>Категорії</h1>
+
+        </div>
+        <!-- Container Content -->
+        <div class="categories-conatiner">
+            <!-- Box 1 -->
+            <div class="box box1">
+                <img src="img/roadbike1.png" alt="">
+                <h2>Дорожні</h2>
+                <span>10 Items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+            <!-- Box 2 -->
+            <div class="box box2">
+                <img src="img/endurobike2.png" alt="">
+                <h2>Ендуро</h2>
+                <span>10 Items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+            <!-- Box 3 -->
+            <div class="box box3">
+                <img src="img/sportmoto3.png" alt="">
+                <h2>Спорт</h2>
+                <span>10 Items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+            <!-- Box 4 -->
+            <div class="box box4">
+                <img src="img/tourismoto4.png" alt="">
+                <h2>Туристичні</h2>
+                <span>8 Items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+            <!-- Box 5 -->
+            <div class="box box5">
+                <img src="img/pitbikemoto5.png" alt="">
+                <h2>Піт байк</h2>
+                <span>13 Items</span>
+                <i class='bx bx-right-arrow-alt' ></i>
+            </div>
+        </div>
+    </section>
+    <!-- Products -->
+    <section class="products" id="products">
+        <div class="heading">
+            <h1> <br><span>Мотоцикли</h1>
+                <a href="#" class="btn">Переглянути<i class='bx bx-right-arrow-alt' ></i></a>
+
+        </div>
+        <!-- Product Content -->
+        <div class="products-conatiner">
+            <!-- Box 1 -->
+            <div class="box">
+                <img src="img/Bajaj.png" alt="">
+                <h2>BAJAJ PULSAR NS200</h2>
+                <h3 class="price">$2959</h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 2 -->
+            <div class="box">
+                <img src="img/VIPERV250.png" alt="">
+                <h2>VIPER V250-F2</h2>
+                <h3 class="price">$1479</h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 3 -->
+            <div class="box">
+                <img src="img/pantera.png" alt="">
+                <h2>GEON PANTERA S200</h2>
+                <h3 class="price">$1444</h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 4 -->
+            <div class="box">
+                <img src="img/skybikecrdx.png" alt="">
+                <h2>SKYBIKE CRDX-200 (17 / 17)</h2>
+                <h3 class="price">$1480</h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 5 -->
+            <div class="box">
+                <img src="img/HamerBrute.png" alt="">
+                <h2>HAMER BRUTE 65CC</h2>
+                <h3 class="price">$499</h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+            <!-- Box 6 -->
+            <div class="box">
+                <img src="img/bajajboxer.png" alt="">
+                <h2>BAJAJ BOXER 150X</h2>
+                <h3 class="price">$1419</h3>
+                <i class='bx bx-cart-alt' ></i>
+                <i class='bx bx-heart' ></i>
+                <span class="discount">-25%</span>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section class="about" id="about">
+        <img src="img/KawasakiKX450.png" alt="">
+        <div class="about-text">
+            <span>Про нас</span>
+            <p>Наш віртуальний магазин «MotorBike» пропонує своїм клієнтам широкий асортимент мотоциклів від кращих виробників: Kawasaki, Viper, Loncin, Suzuki, Honda, Yamaha і багатьох інших. </p>
+            <p>Інтернет-магазин «MotorBike» - це величезний вибір  квадроциклів, мотоциклів, мопедів, скутерів, електроскутерів.</p>
+            <a href="#" class="btn">Більше<i class='bx bx-right-arrow-alt' ></i></a>
+        </div>
+    </section>
+    
+   
+    <!-- Copyright -->
+    <div class="copyright">
+        <p>&#169; MotorBike All Right Reserved.</p>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Link To JS -->
+    <script src="main.js"></script>
+</body>
+</html>
